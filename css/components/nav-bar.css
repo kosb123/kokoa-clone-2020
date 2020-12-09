@@ -20,10 +20,12 @@
   left: 23px;
   bottom: 15px;
 }
-.nav__notification.two {
+.two {
+  background-color: tomato;
   width: 5px;
   height: 5px;
   position: absolute;
   left: 32px;
   bottom: 28px;
+  border-radius: 50%;
 }
