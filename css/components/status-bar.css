@@ -27,3 +27,19 @@
 .status-bar__column .fa-battery-full {
   margin: 0px 5px;
 }
+
+@keyframes lightingBolt {
+  0% {
+    color: none;
+  }
+  50% {
+    color: greenyellow;
+  }
+  100% {
+    color: none;
+  }
+}
+
+.fa-bolt {
+  animation: lightingBolt 3s ease-in-out infinite;
+}
